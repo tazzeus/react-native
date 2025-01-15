@@ -5,7 +5,7 @@ import { MaterialIcons } from "@expo/vector-icons"
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 62,
+    paddingTop: 62,  
   },
   
   title: {

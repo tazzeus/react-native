@@ -2,9 +2,9 @@ import AsyncStorage, { useAsyncStorage } from "@react-native-async-storage/async
 
 const LINKS_STORAGE_KEY = "links-storage"
 
-type LinkStorage = {
+export type LinkStorage = {
     id: string
-    nome: string
+    name: string
     url: string
     category: string   
 }

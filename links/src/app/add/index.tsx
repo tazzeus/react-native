@@ -59,9 +59,7 @@ export default function Add() {
                 </TouchableOpacity>
                 <Text style={styles.title}> Novo </Text>
             </View>
-
-            <Text style={styles.label}> Selecione uma categoria </Text>
-            
+           
             <Categories onChange={setCategory} selected={category} />
 
             <View style={styles.form}>

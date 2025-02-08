@@ -59,6 +59,7 @@ export default function Index() {
       Alert.alert("Erro", " Não foi possível abrir o link")
     }
   }
+  
   useFocusEffect(
     useCallback(() => {
       getLinks()
